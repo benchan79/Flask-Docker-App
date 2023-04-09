@@ -7,3 +7,6 @@
 1. Successfully run this python app
 
 END
+
+docker build -t "flask_app" .
+docker run -d -p 5050:5000 --name "container_flask_app" flask_app
